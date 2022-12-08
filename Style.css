@@ -1,0 +1,131 @@
+* {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin-left: 86px;
+    display: inline-block;
+
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+}
+
+header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    margin: 44px 0 0 53px;
+}
+
+img {
+    display: inline-block;
+    width: 568px;
+    height: 500px;
+    margin: 144px 0 0 125px;
+}
+
+.topButton {
+    Width: 130px;
+    Height: 41px;
+    cursor: pointer;
+    background: #665AE1;
+    border-radius: 20.5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px;
+    margin-left: 23px;
+}
+
+.topLink {
+    cursor: pointer;
+    width: 126px;
+    height: 29px;
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+.bottomButton {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    background: #ADFF00;
+    border-radius: 55px;
+    border: none;
+    padding: 9px;
+    margin-top: 65px;
+    Width: 239px;
+    Height: 64px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        display: none
+    }
+
+    img {
+        display: block;
+        width: 354px;
+        height: 317px;
+        margin: 149px 0 0 14px;
+    }
+
+    h1 {
+        margin-top: 24px;
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        line-height: 61px;
+
+    }
+
+    h2 {
+        margin-top: 7px;
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .bottomButton {
+        margin-top: 17px;
+    }
+}
